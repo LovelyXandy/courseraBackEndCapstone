@@ -18,4 +18,4 @@ class Menu(models.Model):
    Inventory = models.SmallIntegerField(null=False)
 
    def __str__(self):
-      return self.name
+    return f'{self.Title} : {str(self.Price)}'
